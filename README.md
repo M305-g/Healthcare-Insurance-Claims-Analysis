@@ -2,6 +2,23 @@
 
 This project analyzes healthcare insurance claims data to identify claim trends, provider performance, patient demographics, and factors influencing insurance claim outcomes. The analysis combines SQL for data cleaning and exploration, Python for statistical analysis, and Power BI for interactive dashboards that support data-driven decision-making in healthcare insurance management.
 
+Built a healthcare claims analytics solution that uncovered $22.5M in expenditures, identified $4.9M pediatric claims as a major cost driver, and delivered actionable insights on provider efficiency using SQL, Python, and Power BI.
+
+**Business Impact:** 
+
+Analyzed 4,500 healthcare insurance claims worth $22.5M to uncover cost drivers, provider performance trends, and inefficiencies in claim processing. Delivered actionable insights through SQL, Python, and interactive Power BI dashboards.
+
+**Skills Demonstrated:**
+
+- SQL: Data cleaning, joins, exploratory queries
+
+- Python: Statistical testing, correlation analysis
+
+- Power BI: Executive dashboards, provider performance monitoring
+
+- Business Analysis: Identified $4.9M pediatric claims as major expenditure driver
+
+
 **Executive Summary**
 
 This project analyzed 4,500 healthcare insurance claims using SQL, Python, and Power BI to evaluate claim patterns, healthcare expenditure, provider performance, and claim outcomes.
