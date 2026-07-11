@@ -2,9 +2,6 @@ SELECT *
  FROM sakila.health_insurance_claim
  LIMIT 10;
  
- SELECT COUNT(*) AS Total_Records
- FROM sakila.health_insurance_claim;
- 
  DESCRIBE sakila.health_insurance_claim;
  
  SELECT ClaimID,
@@ -63,10 +60,10 @@ SELECT
    CASE
        WHEN PatientAge < 18 THEN 'Child'
        WHEN PatientAge BETWEEN 18 AND 35 THEN 'Young Adult'
-       ELSE 'Senior' END AS PatientAge,
+       ELSE 'Senior' END AS AgeGroup,
 COUNT(*) AS total_claims
 FROM sakila.health_insurance_claim
-GROUP BY PatientAge
+GROUP BY AgeGroup
 ORDER BY total_claims DESC;
 
 SELECT PatientGender, COUNT(*) AS total_claim
