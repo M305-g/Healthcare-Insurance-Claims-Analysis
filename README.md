@@ -409,3 +409,6 @@ The Healthcare Insurance Claims Analysis successfully identified patterns in hea
 These findings suggest that healthcare expenditure and claim outcomes are likely influenced by additional clinical and operational factors, including diagnosis severity, treatment complexity, documentation quality, and insurance policy requirements.
 
 By integrating SQL for data exploration, Python for statistical analysis, and Power BI for visualization, this project demonstrates an end-to-end healthcare analytics workflow that can support healthcare insurers and providers in improving claims management, monitoring financial performance, and making data-driven operational decisions.
+
+Mwanahamisi Juma
++255787338398
