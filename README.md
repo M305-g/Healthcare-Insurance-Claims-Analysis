@@ -2,7 +2,7 @@
 
 This project analyzes healthcare insurance claims data to identify claim trends, provider performance, patient demographics, and factors influencing insurance claim outcomes. The analysis combines SQL for data cleaning and exploration, Python for statistical analysis, and Power BI for interactive dashboards that support data-driven decision-making in healthcare insurance management.
 
-Built a healthcare claims analytics solution that uncovered $22.5M in expenditures, identified $4.9M pediatric claims as a major cost driver, and delivered actionable insights on provider efficiency using SQL, Python, and Power BI.
+**Built a healthcare claims analytics solution that uncovered $22.5M in expenditures, identified $4.9M pediatric claims as a major cost driver, and delivered actionable insights on provider efficiency using SQL, Python, and Power BI.**
 
 **Business Impact:** 
 
@@ -279,24 +279,12 @@ Claim Status Distribution
 
 SQL Analysis
 
-**Key Findings**
+**Key Finding**
 
-The dataset contained 4,500 healthcare insurance claims with a total claim amount of 22,563,917 and an average claim amount of 5,014.
+* The analysis of **4,500 healthcare insurance claims** identified a **total claim amount of 22.56 million** with an average claim amount of **5,014**. Outpatient services recorded the highest claim volume, Pediatrics generated the highest total claim expenditure, and healthcare spending peaked in **November 2023**.
 
-Claim amounts ranged from 100 to 9,997.
+* Claim activity was generally balanced across gender, claim status, and claim types. Senior patients accounted for the highest number of claims, while several diagnosis codes contributed disproportionately to total claim costs, highlighting potential high-cost clinical areas for further investigation.
 
-Senior patients recorded the highest number of claims (2,892), followed by young adults (807) and children (801).
-Female patients accounted for 2,282 claims, while male patients accounted for 2,218.
-
-Outpatient services recorded the highest claim volume (1,152), followed by routine (1,149), inpatient (1,128), and emergency (1,071).
-
-Pediatrics generated the highest total claim amount (4,918,043.9) and the highest claim volume (955).
-
-November 2023 recorded the highest monthly claim amount (≈1,211,698.7), while July recorded the lowest (≈237,566).
-
-Approved claims represented 33.82%, denied 33.60%, and pending 32.58% of all claims.
-
-Several diagnosis codes contributed higher claim amounts than others, indicating potential high-cost clinical conditions.
 
 **Key Insights**
 
@@ -327,32 +315,9 @@ Monitor denied and pending claims to improve claims management and operational e
 
 **Key Findings**
 
-**Correlation Findings**
+* Descriptive statistics showed that the average claim amount was **5,014**, with a nearly symmetric distribution. Correlation analysis found **very weak positive relationships** between claim amount and both patient age and patient income.
 
-Claim Amount vs Age: r = 0.0095 (very weak relationship)
-
-Claim Amount vs Income: r = 0.019 (very weak relationship)
-
-**Hypothesis Testing**
-
-Gender vs Claim Amount → Not statistically significant (p = 0.8956)
-
-Age Group vs Claim Amount → Not statistically significant (p = 0.267)
-
-Provider Specialty vs Claim Amount → Not statistically significant (p = 0.2676)
-
-**Chi-square Findings**
-
-Gender vs Claim Status → No significant association
-
-Claim Type vs Claim Status → No significant association
-
-Submission Method vs Claim Status → No significant association
-
-The average claim amount was 5,014, with a median of 5,053.
-
-Claim amounts showed a nearly symmetric distribution (Skewness = 0.0004) with negative kurtosis (-1.20).
-
+* Hypothesis testing (t-test, ANOVA, and Chi-square tests) found **no statistically significant differences or associations** between claim amount or claim status and the demographic, provider, or claim-related variables analyzed, suggesting that other clinical or operational factors may be driving claim costs and outcomes.
 
 **Key Insights**
 
@@ -376,13 +341,8 @@ Dashboard 1 – Executive Overview
 
 **Findings**
 
-Claims were evenly distributed across approved, denied, and pending status.
+The Executive Dashboard provides a high-level overview of healthcare claims performance by combining **monthly claim trends, claim status distribution, claim volume by claim type, and the top 10 diagnosis codes by claim amount**. The analysis shows that healthcare expenditure peaked in **November 2023**, claim outcomes were evenly distributed across approved, denied, and pending statuses, **outpatient services** recorded the highest claim volume, and a small number of diagnosis codes accounted for the highest claim costs, highlighting key expenditure trends and potential cost drivers.
 
-November 2023 recorded the highest monthly claim expenditure.
-
-Top diagnosis codes generated substantially higher claim amounts.
-
-Outpatient claims represented the highest claim volume.
 
 **Insights**
 
@@ -400,17 +360,12 @@ Investigate high-cost diagnosis categories.
 
 Improve monitoring of denied and pending claims.
 
-Dashboard 2 – Patient Demographics
+**Dashboard 2 – Patient Demographics**
 
 **Findings**
 
-Gender distribution was nearly equal.
+The Patient Demographics Dashboard provides an overview of the insured population by visualizing **age distribution, gender distribution, employment status, marital status, and income distribution**. The analysis indicates that **patients aged 18–35 years** accounted for the highest number of claims, gender distribution was nearly balanced, employed individuals submitted the most claims, married patients recorded the highest claim volume, and patient income was broadly distributed across the dataset, supporting the assessment of healthcare utilization across different demographic groups.
 
-Patients aged 18–35 recorded the highest claim volume.
-
-Employed individuals submitted the highest number of claims.
-
-Married patients recorded the highest claim volume.
 
 **Insights**
 
@@ -424,15 +379,12 @@ Develop age-specific preventive healthcare programs.
 
 Continue monitoring healthcare utilization across demographic groups.
 
-Dashboard 3 – Provider Performance
+**Dashboard 3 – Provider Performance**
 
 **Findings**
 
-Pediatrics recorded the highest claim volume and highest average claim amount.
+The Provider Performance Dashboard evaluates healthcare provider activity through **claims by provider specialty, claims by provider location, average claim amount by provider specialty, and the top 10 providers by claim amount**. The analysis shows that **Pediatrics** recorded the highest claim volume and the highest average claim amount among provider specialties, while the top-performing providers contributed the largest share of claim expenditure, enabling the identification of provider workload, financial performance, and geographic claim distribution.
 
-Provider claim volumes were relatively similar across specialties.
-
-North Michael recorded the highest provider claim count.
 
 **Insights**
 
@@ -446,21 +398,20 @@ Monitor provider workload and resource allocation.
 
 Evaluate provider performance using claim volume, claim cost, and claim outcomes.
 
-Dashboard 4 – Claim Submission Methods
+**Dashboard 4 – Claim Submission Methods**
 
 **Findings**
 
-Paper submissions accounted for the highest number of claims, followed by phone and online submissions.
+The Claims Analysis Dashboard provides a comprehensive view of claim characteristics by visualizing **claims by diagnosis, claims by procedure, claims by claim type, claims by submission method, and claim status distribution**. The analysis highlights the most frequently occurring diagnosis and procedure codes, compares claim volumes across service types and submission channels, and summarizes the distribution of approved, denied, and pending claims, supporting the identification of utilization patterns and opportunities to improve claims management.
+
 
 **Insights**
 
-Multiple submission channels were actively used with relatively balanced utilization.
+Claim volumes varied across diagnosis codes, procedure codes, claim types, and submission methods, indicating differences in healthcare service utilization. Outpatient claims represented the highest claim volume, paper was the most frequently used submission method, and claim outcomes were evenly distributed across approved, denied, and pending statuses, suggesting a balanced claims processing pattern.
 
-**Recommendations**
+**Recommendation**
 
-Encourage digital claim submission to improve operational efficiency.
-
-Evaluate claim processing performance across submission methods.
+Monitor high-frequency diagnosis and procedure codes to identify areas driving healthcare utilization and costs. Encourage greater adoption of electronic claim submission to improve operational efficiency, and regularly review denied and pending claims to identify opportunities to streamline the claims review process and reduce processing delay.
 
 **Conclusion**
 
