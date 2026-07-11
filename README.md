@@ -288,18 +288,7 @@ SQL Analysis
 
 **Key Insights**
 
-Healthcare utilization was relatively balanced across gender, claim status, and claim type.
-
-Senior patients account for nearly two-thirds (64.3%) of all claims, indicating that older adults are the largest contributors to claim volume.Young adults and children have almost equal claim volumes, each contributing about 18%.
-This suggests that healthcare utilization and insurance expenditure analysis should focus strongly on the senior population, especially when evaluating high-cost diagnoses, procedures, and provider specialties.
-
-Outpatient services represented the largest share of healthcare utilization.
-
-Pediatrics contributed the highest healthcare expenditure among provider specialties.
-
-Monthly healthcare expenditure fluctuated throughout the study period, with a noticeable peak in November 2023.
-
-Certain diagnosis codes generated substantially higher claim amounts than others.
+The SQL analysis revealed that healthcare claims and expenditure were distributed relatively evenly across most demographic and claim categories, while a few areas accounted for higher utilization and costs. Senior patients generated the highest claim volume, outpatient services were the most frequently used healthcare service, Pediatrics recorded the highest provider workload and total claim expenditure, and healthcare spending peaked in November 2023. In addition, a small number of diagnosis codes contributed disproportionately to total claim costs, highlighting potential areas for further cost and utilization analysis.
 
 **Recommendations**
 
