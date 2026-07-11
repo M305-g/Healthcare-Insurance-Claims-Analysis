@@ -412,3 +412,6 @@ By integrating SQL for data exploration, Python for statistical analysis, and Po
 
 Mwanahamisi Juma
 +255787338398
+www.linkedin.com/in/mwanahamisi-juma-00576b394
+mwanahamis050@gmail.com
+jmwanahamisi02@gmail.com
