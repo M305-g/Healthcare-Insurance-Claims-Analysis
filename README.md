@@ -411,7 +411,11 @@ These findings suggest that healthcare expenditure and claim outcomes are likely
 By integrating SQL for data exploration, Python for statistical analysis, and Power BI for visualization, this project demonstrates an end-to-end healthcare analytics workflow that can support healthcare insurers and providers in improving claims management, monitoring financial performance, and making data-driven operational decisions.
 
 Mwanahamisi Juma
+
 +255787338398
+
 www.linkedin.com/in/mwanahamisi-juma-00576b394
+
 mwanahamis050@gmail.com
+
 jmwanahamisi02@gmail.com
